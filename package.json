@@ -1,5 +1,5 @@
 {
-  "name": "epic-ass",
+  "name": "ass-sender",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,10 @@
   "keywords": [
     "Ass"
   ],
+  "bin": {
+    "ass-sender": "module.js"
+  },
+  "preferGlobal": "true",
   "author": "",
   "license": "MIT",
   "dependencies": {
